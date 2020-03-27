@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:backgroundTint="@color/colorPrimary"
+    android:scrollbarThumbHorizontal="@color/colorPrimary"
+    android:scrollbarThumbVertical="@color/colorAccent"
+    android:scrollbarTrackHorizontal="@color/colorPrimaryDark"
+    android:scrollbarTrackVertical="@android:color/holo_blue_bright"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/MundoID"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="1dp"
+        android:text="Mundo Nordico"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HelID" />
+
+    <Button
+        android:id="@+id/HelID"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:text="Hel"
+        app:layout_constraintBottom_toTopOf="@+id/MundoID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FriggID" />
+
+    <Button
+        android:id="@+id/FriggID"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:text="Frigg"
+        app:layout_constraintBottom_toTopOf="@+id/HelID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FreyrID" />
+
+    <Button
+        android:id="@+id/FreyrID"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="3dp"
+        android:text="Freyr"
+        app:layout_constraintBottom_toTopOf="@+id/FriggID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ForsetiID" />
+
+    <Button
+        android:id="@+id/ForsetiID"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="5dp"
+        android:text="Forseti"
+        app:layout_constraintBottom_toTopOf="@+id/FreyrID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BragiID" />
+
+    <Button
+        android:id="@+id/BragiID"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="3dp"
+        android:text="Bragi"
+        app:layout_constraintBottom_toTopOf="@+id/ForsetiID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NjordID" />
+
+    <Button
+        android:id="@+id/NjordID"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="2dp"
+        android:text="NJORD"
+        app:layout_constraintBottom_toTopOf="@+id/BragiID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/balderID" />
+
+    <Button
+        android:id="@+id/balderID"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:text="Balder"
+        app:layout_constraintBottom_toTopOf="@+id/NjordID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SkadiID" />
+
+    <Button
+        android:id="@+id/SkadiID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="258dp"
+        android:layout_marginBottom="110dp"
+        android:text="Skadi"
+        app:layout_constraintBottom_toBottomOf="@+id/TyrId"
+        app:layout_constraintEnd_toStartOf="@+id/TyrId"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/TyrId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="258dp"
+        android:layout_marginBottom="120dp"
+        android:text="Tyr"
+        app:layout_constraintBottom_toTopOf="@+id/balderID"
+        app:layout_constraintEnd_toStartOf="@+id/LokiID"
+        app:layout_constraintStart_toEndOf="@+id/SkadiID"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/LokiID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="258dp"
+        android:layout_marginBottom="120dp"
+        android:text="Loki"
+        app:layout_constraintBottom_toTopOf="@+id/balderID"
+        app:layout_constraintEnd_toStartOf="@+id/FreyaID"
+        app:layout_constraintStart_toEndOf="@+id/TyrId"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/FreyaID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="258dp"
+        android:layout_marginBottom="110dp"
+        android:text="Freya"
+        app:layout_constraintBottom_toBottomOf="@+id/LokiID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/LokiID"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="165dp"
+        android:layout_height="101dp"
+        app:layout_constraintBottom_toTopOf="@+id/balderID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.308"
+        app:srcCompat="@drawable/valknut" />
+
+    <Button
+        android:id="@+id/OdinID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="23dp"
+        android:text="Odin"
+        app:layout_constraintBottom_toTopOf="@+id/SkadiID"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48000002" />
+
+    <Button
+        android:id="@+id/THORid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="23dp"
+        android:text="Thor"
+        app:layout_constraintBottom_toTopOf="@+id/FreyaID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="11dp"
+        android:text="Clique em algum botão e saiba mais sobre a história mítica nordica."
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#001B0202"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

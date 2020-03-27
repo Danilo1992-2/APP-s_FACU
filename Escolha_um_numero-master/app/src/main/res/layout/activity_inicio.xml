@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#C370C1CF"
+    tools:context=".Inicio">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="174dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="576dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.614"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lupa" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="359dp"
+        android:layout_height="342dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="27dp"
+        android:background="#03FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.51" />
+
+    <Button
+        android:id="@+id/VOLTARID"
+        android:layout_width="195dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginEnd="172dp"
+        android:layout_marginBottom="9dp"
+        android:backgroundTint="#6188B1"
+        android:shadowColor="#00571414"
+        android:text="VOLTAR"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.401"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="120dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="160dp"
+        android:text="O Resultado é"
+        android:textColor="#ED181B29"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+    <TextView
+        android:id="@+id/ErrouAcertouID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="182dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="171dp"
+        android:layout_marginBottom="33dp"
+        android:text="."
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/VOLTARID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

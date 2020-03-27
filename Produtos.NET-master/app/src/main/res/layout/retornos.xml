@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgID"
+        android:layout_width="412dp"
+        android:layout_height="227dp"
+        app:srcCompat="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/textoid"
+        android:layout_width="match_parent"
+        android:layout_height="404dp"
+        android:background="#000000"
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ValorResturnID"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:background="#030000"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#CDBC14DD"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+</LinearLayout>
